@@ -3,7 +3,7 @@ name: knowledge-engineering
 license: CC0-1.0
 description: >
   Lightweight research workflow built on the five supporting pillars of Knowledge Engineering (Problem Orientation, Ideology, Information Reserve, Methodology, Form of Expression). Their sole purpose is to feed the human's Opinion & Insight — the conclusion always belongs to the user. Use for research, briefing, and analytical-writing tasks. Based on "A Pattern Language for Knowledge Engineering with Large Language Models" (PLoP 2025).
-version: 0.2.6
+version: 0.2.7
 when_to_use: >
   Invoke on research, briefing, investigation, or analytical-writing requests — e.g. "research X", "write a brief on X", "look into X and report back" — especially when the ask is vague and needs a confirmed question first.
 ---
@@ -29,10 +29,11 @@ Concretely, every pillar ends by handing the user one of five things: a question
 
 ## 3. Information Reserve → hands the user an auditable reserve
 
-- Every claim comes from FETCHED full text, never from search snippets or model memory. A snippet is an address, not a source.
-- Save each used source into the working folder as you go (full text or excerpt, plus URL and date), so the user can retrace every step.
-- Diversify: official statements, journalism, movement and primary documents, academic work. When one search axis stalls, SWITCH AXES (language, outlet, framing, region) before concluding "not found".
-- Mirror POMASA's bootstrap workspace: raw materials accumulate in `library/`, processed material lands in `references/`, each work unit keeps its own folder under `workspace/`. Patterns: `BHV-07` Cumulative Project Library, `BHV-05` Grounded Web Research, `QUA-03` Verifiable Data Lineage, `STR-02` Filesystem Data Bus — catalog: https://github.com/eXtremeProgramming-cn/pomasa (under `skills/pomasa/pattern-catalog/`).
+Search summaries are not trustworthy — always fetch the full text of the original page before citing anything. Reference: [BHV-05 Grounded Web Research](https://github.com/eXtremeProgramming-cn/pomasa/blob/main/skills/pomasa/pattern-catalog/BHV-05-grounded-web-research.md)
+
+1. **Locate sources first.** Search only finds candidates; summaries, snippets, and cached snapshots are never evidence.
+2. **Verify against the original.** Check conclusions, numbers, names, and attributions against the full text before use, and save each used source (text or excerpt, plus URL and date) into the working folder.
+3. **Cite to origin.** Every claim in the deliverable traces back to an original source. When one search axis stalls, switch axes (language, outlet, framing, region) before concluding "not found".
 
 ## 4. Methodology → hands the user a transparent analysis
 
