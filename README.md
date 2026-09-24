@@ -1,6 +1,6 @@
-# knowledge-engineering
+# Pillars of Knowledge Engineering
 
-A skill that runs lightweight research as knowledge engineering — five pillars, organized to feed the human's Opinion & Insight.
+A lightweight research skill that feeds the human's Opinion & Insight.
 
 knowledge-engineering is a skill in the [Agent Skills](https://agentskills.io/) format — a single `SKILL.md` that turns a vague ask into a confirmed question, grounds every claim in fetched sources, and delivers a structured brief with the user's judgment at the center. Released under [CC0 1.0](LICENSE) — no attribution, no restrictions.
 
