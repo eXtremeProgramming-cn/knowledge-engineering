@@ -3,7 +3,7 @@ name: knowledge-engineering
 license: CC0-1.0
 description: >
   Lightweight research workflow built on the five supporting pillars of Knowledge Engineering (Problem Orientation, Ideology, Information Reserve, Methodology, Form of Expression). Their sole purpose is to feed the human's Opinion & Insight — the conclusion always belongs to the user. Use for research, briefing, and analytical-writing tasks. Based on "A Pattern Language for Knowledge Engineering with Large Language Models" (PLoP 2025).
-version: 0.3.1
+version: 0.3.2
 when_to_use: >
   Invoke on research, briefing, investigation, or analytical-writing requests — e.g. "research X", "write a brief on X", "look into X and report back" — especially when the ask is vague and needs a confirmed question first.
 ---
@@ -55,4 +55,5 @@ Work from the research question, on the basis of the collected material, with th
 ## Cross-cutting: footnotes
 
 - Borrowed claims carry footnotes in academic style: one note per claim, the note defines the full source (author, title, publisher/date, URL). Keep the density lean — notes exist so the reader can verify, not to decorate.
+- Format follows POMASA's [STR-08 Pandoc-Ready Markdown](https://github.com/eXtremeProgramming-cn/pomasa/blob/main/skills/pomasa/pattern-catalog/STR-08-pandoc-ready-markdown.md): reference as `[^n]`, definition as `[^n]:` with the full source, definitions placed at the end of the section or document.
 - Verbatim quotes must literally appear in the fetched source text; anything from model memory is marked [unverified]. The grounded-citations skill provides this verification ledger — use it where installed.
