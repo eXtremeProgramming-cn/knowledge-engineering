@@ -3,7 +3,7 @@ name: knowledge-engineering
 license: CC0-1.0
 description: >
   Lightweight research workflow built on the five supporting pillars of Knowledge Engineering (Problem Orientation, Ideology, Information Reserve, Methodology, Form of Expression). Their sole purpose is to feed the human's Opinion & Insight — the conclusion always belongs to the user. Use for research, briefing, and analytical-writing tasks. Based on "A Pattern Language for Knowledge Engineering with Large Language Models" (PLoP 2025).
-version: 0.2.9
+version: 0.3.0
 when_to_use: >
   Invoke on research, briefing, investigation, or analytical-writing requests — e.g. "research X", "write a brief on X", "look into X and report back" — especially when the ask is vague and needs a confirmed question first.
 ---
@@ -45,11 +45,12 @@ Work from the research question, on the basis of the collected material, with th
 ## 5. Form of Expression → hands the user a form they can reshape
 
 - Default structure for a research brief:
-  1) Question — the confirmed ask, stated in one line.
-  2) Background — the context needed to read what follows.
-  3) What the sources establish — findings from your reserve, every claim footnoted.
-  4) Analysis — the detailed reading through the lens (pillar 4), contradictions visible, tentative observations labeled as yours.
-  5) Open questions — what only the user can judge.
+  1) Executive summary — the whole brief in a few lines; a reader with one minute reads only this.
+  2) Question — the confirmed ask, stated in one line.
+  3) Background — the context needed to read what follows.
+  4) What the sources establish — findings from your reserve, every claim footnoted.
+  5) Analysis — the detailed reading through the lens (pillar 4), contradictions visible.
+  6) Conclusions and open questions — your conclusions, labeled as yours, and what only the user can judge.
 - If the user hinted at a different form (talk, memo, thread, deck), confirm before writing. The user owns the form decision.
 
 ## Cross-cutting: footnotes
