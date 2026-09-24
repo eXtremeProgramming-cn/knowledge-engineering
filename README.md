@@ -15,7 +15,7 @@ This skill is that checklist — small enough to finish a quick research task in
 Each pillar hands the user something:
 
 1. **Problem Orientation** → a confirmed question (vague asks get a fast overview scan first, then 1–3 candidate questions to pick from)
-2. **Ideology** → a named analytical lens (never implicit; Marxist orgs default to kritik; other orgs should craft their own framework)
+2. **Ideology** → a named analytical lens (never implicit; Marxist orgs default to [kritik](https://github.com/eXtremeProgramming-cn/kritik) ([site](https://extremeprogramming-cn.github.io/kritik/)); other orgs should craft their own framework)
 3. **Information Reserve** → an auditable source folder (full text fetched, saved with URL and date; search axes switched before concluding "not found")
 4. **Methodology** → a transparent analysis (one-line method statement; contradictions preserved, not averaged away)
 5. **Form of Expression** → a reshapa­ble deliverable (default brief structure; verified findings, tentative observations, and open questions kept visibly separate)
