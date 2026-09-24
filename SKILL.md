@@ -3,7 +3,7 @@ name: knowledge-engineering
 license: CC0-1.0
 description: >
   Lightweight research workflow built on the five supporting pillars of Knowledge Engineering (Problem Orientation, Ideology, Information Reserve, Methodology, Form of Expression). Their sole purpose is to feed the human's Opinion & Insight — the conclusion always belongs to the user. Use for research, briefing, and analytical-writing tasks. Based on "A Pattern Language for Knowledge Engineering with Large Language Models" (PLoP 2025).
-version: 0.2.7
+version: 0.2.8
 when_to_use: >
   Invoke on research, briefing, investigation, or analytical-writing requests — e.g. "research X", "write a brief on X", "look into X and report back" — especially when the ask is vague and needs a confirmed question first.
 ---
@@ -35,10 +35,12 @@ Search summaries are not trustworthy — always fetch the full text of the origi
 2. **Verify against the original.** Check conclusions, numbers, names, and attributions against the full text before use, and save each used source (text or excerpt, plus URL and date) into the working folder.
 3. **Cite to origin.** Every claim in the deliverable traces back to an original source. When one search axis stalls, switch axes (language, outlet, framing, region) before concluding "not found".
 
-## 4. Methodology → hands the user a transparent analysis
+## 4. Methodology → hands the user a detailed analysis
 
-- State in one line how the material is analyzed (comparison, timeline, actor mapping, discourse reading, ...). For quick research this is a sentence, not a chapter.
-- Preserve contradictions between sources. Do not average them away — tensions in the material are raw material for the user's insight.
+Work from the research question, on the basis of the collected material, with the ideological framework as the yardstick — and deliver a DETAILED analysis, not a flattened summary.
+
+- Every analytical move traces back to the research question; material that does not serve the question stays out of the argument.
+- Ground each step in the sources of your reserve, reading them through the framework (kritik for us). Contradictions and tensions stay visible — they are raw material for the user's insight.
 
 ## 5. Form of Expression → hands the user a form they can reshape
 
