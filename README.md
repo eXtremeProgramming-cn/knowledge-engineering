@@ -1,32 +1,38 @@
 # knowledge-engineering
 
-A lightweight research skill for LLM agents, built on the Six Pillars of Knowledge Engineering: Problem Orientation, Ideology, Information Reserve, Methodology, and Form of Expression — five supporting pillars whose sole purpose is to feed the human's Opinion & Insight, the conclusion always belonging to the user.
+A lightweight research skill for LLM agents: five pillars of knowledge engineering, organized to feed the human's Opinion & Insight — the conclusion always belongs to the user.
 
-Based on [A Pattern Language for Knowledge Engineering with Large Language Models](https://doi.org/10.64346/PLoP2025p02) (PLoP 2025).
+![A chibi whale-girl maid climbing a library ladder to reach a book — searching for knowledge, one book at a time.](meme.png)
 
-## Why
+LLM agents fail at research in predictable ways: the question never gets sharpened, search snippets are trusted as sources, fetched material gets lost, facts and interpretations blur together, and a conclusion arrives without showing its work. Frontier models have the competence; what they lack is a checklist that makes the failure modes explicit and keeps the human in the loop at the right moments.
 
-LLM agents fail at research in predictable ways: vague questions never sharpened, search snippets trusted as sources, materials fetched then lost, contradictions averaged away, and conclusions presented without separating evidence from speculation. Frontier models have the competence; what they lack is a checklist that makes the failure modes explicit and keeps the human in the loop at the right moments.
+This skill is that checklist — small enough to finish a quick research task in one sitting, structured enough that the result can be audited.
 
-This skill is that checklist — small enough to finish a quick research task in one sitting, structured enough that the result can be audited and the user's judgment can operate.
+## The five pillars
 
-## The five pillars in this skill
+Method source: Xiong Jie, *A Pattern Language for Knowledge Engineering with Large Language Models*, PLoP 2025 ([DOI 10.64346/PLoP2025p02](https://doi.org/10.64346/PLoP2025p02)). The pillars are supporting scaffolding; at the center sits the human's Opinion & Insight.
 
-Each pillar hands the user something:
-
-1. **Problem Orientation** → a confirmed question (vague asks get a fast overview scan first, then 1–3 candidate questions to pick from)
-2. **Ideology** → a named analytical lens (never implicit; Marxist orgs default to [kritik](https://github.com/eXtremeProgramming-cn/kritik) ([site](https://extremeprogramming-cn.github.io/kritik/)); other orgs should craft their own framework)
-3. **Information Reserve** → an auditable source folder (full text fetched, saved with URL and date; search axes switched before concluding "not found")
-4. **Methodology** → a transparent analysis (one-line method statement; contradictions preserved, not averaged away)
-5. **Form of Expression** → a reshapa­ble deliverable (default brief structure; verified findings, tentative observations, and open questions kept visibly separate)
+1. **Problem Orientation** → a confirmed question. Vague asks get a fast overview scan first, then 1–3 candidate questions to pick from; deep collection waits until the question is confirmed.
+2. **Ideology** → a named analytical lens. As Marxists, we default to the [kritik](https://github.com/eXtremeProgramming-cn/kritik) skill ([site](https://extremeprogramming-cn.github.io/kritik/)); other organizations should treat kritik as a reference model and craft their own framework.
+3. **Information Reserve** → an auditable source folder. Full text is fetched, never snippets; every used source is saved with URL and date; search axes switch before concluding "not found". Implements POMASA pattern [BHV-05 Grounded Web Research](https://github.com/eXtremeProgramming-cn/pomasa/blob/main/skills/pomasa/pattern-catalog/BHV-05-grounded-web-research.md).
+4. **Methodology** → a detailed analysis. Work from the question, on the material, through the lens; contradictions stay visible — they are raw material for the user's insight.
+5. **Form of Expression** → a reshapable deliverable. Executive summary, question, background, findings and analysis (footnoted, interpretations labeled), conclusions and open questions. The user owns the form decision.
 
 ## Install
 
-Copy this directory into any agent that supports the [agent skills](https://agentskills.io) format:
+With the [skills CLI](https://skills.sh):
 
-- Hermes Agent: `~/.hermes/skills/knowledge-engineering/`
-- Claude Code: `~/.claude/skills/knowledge-engineering/`
+```bash
+npx skills add eXtremeProgramming-cn/knowledge-engineering
+```
+
+Or copy this directory into any [agentskills.io](https://agentskills.io)-compatible agent: `~/.hermes/skills/knowledge-engineering/` (Hermes Agent), `~/.claude/skills/knowledge-engineering/` (Claude Code), or just read `SKILL.md` — the skill is one file.
+
+## Related
+
+- [kritik](https://github.com/eXtremeProgramming-cn/kritik) — the ideological framework this skill defaults to ([site](https://extremeprogramming-cn.github.io/kritik/))
+- [POMASA](https://github.com/eXtremeProgramming-cn/pomasa) — the heavyweight pattern language + generator this skill is the lightweight counterpart of ([pattern catalog](https://github.com/eXtremeProgramming-cn/pomasa/tree/main/skills/pomasa/pattern-catalog))
 
 ## License
 
-[CC0-1.0](LICENSE) — public domain, no attribution required.
+[CC0-1.0](LICENSE) — public domain, no attribution required. ![CC0](cc-zero.svg)
