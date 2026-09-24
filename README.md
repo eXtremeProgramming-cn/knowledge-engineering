@@ -62,10 +62,4 @@ To make the method available in every session of a research workspace, paste thi
 ## Research method (knowledge-engineering)
 
 Research tasks in this workspace follow the five-pillar method — see [github.com/eXtremeProgramming-cn/knowledge-engineering](https://github.com/eXtremeProgramming-cn/knowledge-engineering). If the skill is not installed, reference that repository and follow its `SKILL.md`.
-
-- **Problem orientation** → restate the request as an explicit research question; if vague, do a fast overview scan and propose candidates for the user to pick before deep work.
-- **Ideology** → name the analytical lens in the deliverable; apply the organization's framework (kritik for Marxist organizations) as given.
-- **Information reserve** → fetch full text, never conclude from snippets; save each used source with URL and date; switch search axes before concluding "not found" ([BHV-05 Grounded Web Research](https://github.com/eXtremeProgramming-cn/pomasa/blob/main/skills/pomasa/pattern-catalog/BHV-05-grounded-web-research.md)).
-- **Methodology** → analyze from the question, on the material, through the framework; keep contradictions visible; deliver detail, not summary.
-- **Form of expression** → brief structure: executive summary, question, background, findings and analysis (footnoted), conclusions and open questions. The user owns the form.
 ```
