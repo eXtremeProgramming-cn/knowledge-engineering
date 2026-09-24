@@ -22,6 +22,10 @@ The paper presents a pattern language for human–LLM collaboration built around
 
 ![The six-pillar framework: Opinion & Insight as the human core at the top, carried by five supporting pillars — Problem Orientation, Ideology, Information Reserve, Methodology, and Form of Expression.](pillars.png)
 
+## A demonstration, not an answer
+
+The five-pillar workflow this skill ships is the most basic implementation we could write. It is exemplary by design: you are meant to look at it and think about how your own five pillars of knowledge engineering should be designed. Its role is heuristic — a starting point for that thinking, not the correct answer.
+
 ## Install
 
 ```bash
