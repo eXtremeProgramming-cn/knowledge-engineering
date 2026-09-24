@@ -3,7 +3,7 @@ name: knowledge-engineering
 license: CC0-1.0
 description: >
   Lightweight research workflow built on the five supporting pillars of Knowledge Engineering (Problem Orientation, Ideology, Information Reserve, Methodology, Form of Expression). Their sole purpose is to feed the human's Opinion & Insight — the conclusion always belongs to the user. Use for research, briefing, and analytical-writing tasks. Based on "A Pattern Language for Knowledge Engineering with Large Language Models" (PLoP 2025).
-version: 0.2.2
+version: 0.2.3
 when_to_use: >
   Invoke on research, briefing, investigation, or analytical-writing requests — e.g. "research X", "write a brief on X", "look into X and report back" — especially when the ask is vague and needs a confirmed question first.
 ---
@@ -23,7 +23,7 @@ Concretely, every pillar ends by handing the user one of five things: a question
 ## 2. Ideology → hands the user a named lens
 
 - State the analytical lens you will use (class analysis, political economy, institutional, ...) in one line inside the deliverable.
-- If the organization works from a Marxist standpoint, default to the kritik skill — that stance decision is already made. LOAD AND APPLY kritik now, before any analysis: agents with a skills tool call `skill_view("kritik")` and follow it; if kritik is not installed, fetch https://github.com/eXtremeProgramming-cn/kritik (site: https://extremeprogramming-cn.github.io/kritik/), read its SKILL.md, and apply it for the rest of this task.
+- If the organization works from a Marxist standpoint, default to the kritik skill — that stance decision is already made. Load and apply kritik now, before any analysis: https://github.com/eXtremeProgramming-cn/kritik (site: https://extremeprogramming-cn.github.io/kritik/).
 - Other organizations: treat kritik (repo and site above) as a reference model and formulate your own ideological framework to fit your politics.
 - A lens you cannot name is a lens you cannot audit. Never leave it implicit.
 
