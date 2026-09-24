@@ -23,6 +23,7 @@ body = markdown.markdown(
     README,
     extensions=["fenced_code", "tables", "sane_lists"],
 )
+body = body.replace('<a href="http', '<a target="_blank" rel="noopener noreferrer" href="http')
 
 if "{{CONTENT}}" not in TEMPLATE:
     raise SystemExit("template.html is missing the {{CONTENT}} placeholder")
@@ -36,5 +37,7 @@ if BADGE.exists():
     shutil.copy2(BADGE, out_dir / "cc-zero.svg")
 if MEME.exists():
     shutil.copy2(MEME, out_dir / "meme.png")
+if (ROOT / "LICENSE").exists():
+    shutil.copy2(ROOT / "LICENSE", out_dir / "LICENSE")
 
 print(f"built {out_dir}/index.html")
