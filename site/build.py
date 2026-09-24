@@ -18,6 +18,7 @@ README = (ROOT / "README.md").read_text(encoding="utf-8")
 TEMPLATE = (ROOT / "site" / "template.html").read_text(encoding="utf-8")
 BADGE = ROOT / "site" / "cc-zero.svg"
 MEME = ROOT / "meme.png"
+PILLARS = ROOT / "pillars.png"
 
 body = markdown.markdown(
     README,
@@ -37,6 +38,8 @@ if BADGE.exists():
     shutil.copy2(BADGE, out_dir / "cc-zero.svg")
 if MEME.exists():
     shutil.copy2(MEME, out_dir / "meme.png")
+if PILLARS.exists():
+    shutil.copy2(PILLARS, out_dir / "pillars.png")
 if (ROOT / "LICENSE").exists():
     shutil.copy2(ROOT / "LICENSE", out_dir / "LICENSE")
 

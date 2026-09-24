@@ -20,6 +20,8 @@ The five-pillar structure is not an invention of this skill: it operationalizes,
 
 The paper presents a pattern language for human–LLM collaboration built around six pillars — Problem Orientation, Ideology, Information Reserve, Methodology, Form of Expression, and Opinion & Insight, the human core at the center. This skill turns that pattern language into a one-sitting research workflow: the five supporting pillars structure the work, every pillar ends at a human decision point, and the conclusion belongs to the user.
 
+![The six-pillar framework: Opinion & Insight as the human core at the top, carried by five supporting pillars — Problem Orientation, Ideology, Information Reserve, Methodology, and Form of Expression.](pillars.png)
+
 ## Install
 
 ```bash
