@@ -3,12 +3,14 @@ name: knowledge-engineering
 license: CC0-1.0
 description: >
   Lightweight research workflow built on the five supporting pillars of Knowledge Engineering (Problem Orientation, Ideology, Information Reserve, Methodology, Form of Expression). Their sole purpose is to feed the human's Opinion & Insight — the conclusion always belongs to the user. Use for research, briefing, and analytical-writing tasks. Based on "A Pattern Language for Knowledge Engineering with Large Language Models" (PLoP 2025).
-version: 0.3.2
+version: 0.3.3
 when_to_use: >
   Invoke on research, briefing, investigation, or analytical-writing requests — e.g. "research X", "write a brief on X", "look into X and report back" — especially when the ask is vague and needs a confirmed question first.
 ---
 
 # Knowledge Engineering
+
+Method source: Xiong Jie, *A Pattern Language for Knowledge Engineering with Large Language Models*, PLoP 2025 — [DOI 10.64346/PLoP2025p02](https://doi.org/10.64346/PLoP2025p02).
 
 The center of this method is the user's Opinion & Insight — their judgment, their conclusion. The five pillars below are scaffolding around that center: each one produces something the user needs in order to think. Nothing here replaces the user's judgment; everything here feeds it.
 
