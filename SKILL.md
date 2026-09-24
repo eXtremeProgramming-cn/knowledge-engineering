@@ -3,7 +3,7 @@ name: knowledge-engineering
 license: CC0-1.0
 description: >
   Lightweight research workflow built on the five supporting pillars of Knowledge Engineering (Problem Orientation, Ideology, Information Reserve, Methodology, Form of Expression). Their sole purpose is to feed the human's Opinion & Insight — the conclusion always belongs to the user. Use for research, briefing, and analytical-writing tasks. Based on "A Pattern Language for Knowledge Engineering with Large Language Models" (PLoP 2025).
-version: 0.2.8
+version: 0.2.9
 when_to_use: >
   Invoke on research, briefing, investigation, or analytical-writing requests — e.g. "research X", "write a brief on X", "look into X and report back" — especially when the ask is vague and needs a confirmed question first.
 ---
@@ -44,11 +44,15 @@ Work from the research question, on the basis of the collected material, with th
 
 ## 5. Form of Expression → hands the user a form they can reshape
 
-- Default structure for a research brief: 1) Question 2) Background 3) Findings (evidence-cited) 4) Analysis 5) Open questions.
-- Inside it, keep three registers visibly separate: VERIFIED FINDINGS (cited), your TENTATIVE OBSERVATIONS (labeled as yours), and OPEN QUESTIONS. This separation is what makes the user's judgment possible.
+- Default structure for a research brief:
+  1) Question — the confirmed ask, stated in one line.
+  2) Background — the context needed to read what follows.
+  3) What the sources establish — findings from your reserve, every claim footnoted.
+  4) Analysis — the detailed reading through the lens (pillar 4), contradictions visible, tentative observations labeled as yours.
+  5) Open questions — what only the user can judge.
 - If the user hinted at a different form (talk, memo, thread, deck), confirm before writing. The user owns the form decision.
 
-## Cross-cutting: references
+## Cross-cutting: footnotes
 
-- Every deliverable carries numbered citations and a source list; verbatim quotes only from fetched text; anything from model memory is marked [unverified].
-- If a citations skill (e.g. grounded-citations) is installed, follow it instead of reinventing this section.
+- Borrowed claims carry footnotes in academic style: one note per claim, the note defines the full source (author, title, publisher/date, URL). Keep the density lean — notes exist so the reader can verify, not to decorate.
+- Verbatim quotes must literally appear in the fetched source text; anything from model memory is marked [unverified]. The grounded-citations skill provides this verification ledger — use it where installed.
