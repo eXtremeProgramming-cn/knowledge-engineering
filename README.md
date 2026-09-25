@@ -52,7 +52,7 @@ With the skill installed, ask the agent to research the way you always do:
 research how Brazil's landless workers' movement organizes food sovereignty, and write me a brief
 ```
 
-The skill routes the task through its five pillars — sharpens the question with you first, fetches full texts instead of trusting snippets, keeps every source on disk, reads through the ideological framework (kritik for Marxist organizations), and delivers an executive-summary-first brief whose conclusions are labeled as the assistant's, with open questions left to you.
+The skill routes the task through its five pillars — sharpens the question with you first, decomposes it into angles before collecting, fetches full texts instead of trusting snippets, keeps every source on disk, reads through the ideological framework (kritik for Marxist organizations), and delivers an executive-summary-first brief whose conclusions are labeled as the assistant's, with open questions left to you.
 
 Even without installing, you can point an agent at the skill:
 
