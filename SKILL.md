@@ -3,7 +3,7 @@ name: knowledge-engineering
 license: CC0-1.0
 description: >
   Lightweight research workflow built on the five supporting pillars of Knowledge Engineering (Problem Orientation, Ideology, Information Reserve, Methodology, Form of Expression). Their sole purpose is to feed the human's Opinion & Insight — the conclusion always belongs to the user. Use for research, briefing, and analytical-writing tasks. Based on "A Pattern Language for Knowledge Engineering with Large Language Models" (PLoP 2025).
-version: 0.3.3
+version: 0.4.0
 when_to_use: >
   Invoke on research, briefing, investigation, or analytical-writing requests — e.g. "research X", "write a brief on X", "look into X and report back" — especially when the ask is vague and needs a confirmed question first.
 ---
@@ -27,13 +27,11 @@ Concretely, every pillar ends by handing the user one of five things: a question
 - State the analytical lens you will use (class analysis, political economy, institutional, ...) in one line inside the deliverable.
 - As Marxists, we default to the kritik skill. Load and apply kritik now, before any analysis: https://github.com/eXtremeProgramming-cn/kritik (site: https://extremeprogramming-cn.github.io/kritik/).
 - Other organizations: treat kritik (repo and site above) as a reference model and formulate your own ideological framework to fit your politics.
-- A lens you cannot name is a lens you cannot audit. Never leave it implicit.
+- A lens you cannot name is a lens you cannot audit. Never leave it implicit. Pattern reference: [STR-10 Ideological Foundation](https://github.com/eXtremeProgramming-cn/pomasa/blob/main/skills/pomasa/pattern-catalog/STR-10-ideological-foundation.md) — declared framework, two-axis source grading (tier + standpoint), listen across the spectrum, weigh through the framework.
 
 ## 3. Information Reserve → hands the user an auditable reserve
 
-Search summaries are not trustworthy — always fetch the full text of the original page before citing anything. Reference: [BHV-05 Grounded Web Research](https://github.com/eXtremeProgramming-cn/pomasa/blob/main/skills/pomasa/pattern-catalog/BHV-05-grounded-web-research.md)
-
-1. **Locate sources first.** Search only finds candidates; summaries, snippets, and cached snapshots are never evidence.
+1. **Decompose into angles, then locate sources.** Split the confirmed question into named angles before collecting — facts, context, reactions, analysis is the default skeleton; tailor it to the question and keep gaps visible per angle. Search summaries are not trustworthy — always fetch the full text of the original page before citing anything. Reference: [BHV-09 Multi-Angle Collection](https://github.com/eXtremeProgramming-cn/pomasa/blob/main/skills/pomasa/pattern-catalog/BHV-09-multi-angle-collection.md) and [BHV-05 Grounded Web Research](https://github.com/eXtremeProgramming-cn/pomasa/blob/main/skills/pomasa/pattern-catalog/BHV-05-grounded-web-research.md)
 2. **Verify against the original.** Check conclusions, numbers, names, and attributions against the full text before use, and save each used source (text or excerpt, plus URL and date) into the working folder.
 3. **Cite to origin.** Every claim in the deliverable traces back to an original source. When one search axis stalls, switch axes (language, outlet, framing, region) before concluding "not found".
 
